@@ -41,7 +41,7 @@ stopBtn.disabled = true;
 
 function requestVideo() {
   navigator.mediaDevices.getUserMedia({
-      video: {width: {max: 240}, height: {max: 320}},
+      video: {width: {max: 640}, height: {max: 480}},
       audio: true
     })
     .then(stm => {
